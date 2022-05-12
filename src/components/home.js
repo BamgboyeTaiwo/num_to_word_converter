@@ -8,7 +8,7 @@ export default function Home() {
 
   const convert = (alue) => {
     console.log(isNaN(Value));
-    console.log(Value);
+    console.log(Value);  
     const value = parseInt(Value);
     setValue(value);
     console.log(isNaN(Value));
