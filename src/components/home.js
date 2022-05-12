@@ -4,7 +4,7 @@ import styles from "./home.module.css";
 export default function Home() {
   const [Value, setValue] = useState("");
   const [Output, setOutput] = useState("");
-  const [error, seterror] = useState("")
+  const [error, seterror] = useState("");
 
   const convert = (alue) => {
     console.log(isNaN(Value));
