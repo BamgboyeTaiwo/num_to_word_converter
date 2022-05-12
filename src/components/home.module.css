@@ -1,0 +1,37 @@
+.input:hover,
+.input:active,
+.input:focus {
+    outline: none !important;
+}
+
+.input_div{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+
+/* .input_div {
+    box-shadow: 0px 25px 30px #18A75D26;
+    border: 1px solid #00A85A;
+    background: white;
+    width: 50%;
+} */
+
+.input {
+    box-shadow: 0px 25px 30px #18A75D26;
+    border: 1px solid #00A85A;
+    background: white;
+    width: 70%;
+
+
+}
+
+@media (min-width: 320px) and (max-width: 567px) {
+    
+    .input_div{
+        width: 100% !important;
+    }
+
+}
