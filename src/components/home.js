@@ -62,11 +62,15 @@ export default function Home() {
 
       <div className=" container p-4">
 
-        
-        <h1 className="font-semibold text-[#163828] text-[30px]">
+        <div className=" md:w-[70%] ">
+                  <h1 className="font-semibold text-[#163828] text-[30px]">
         {Output}
 
         </h1>
+        </div>
+
+        
+
 
       </div>
     </div>
