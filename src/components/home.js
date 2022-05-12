@@ -19,6 +19,12 @@ export default function Home() {
   };
   return (
     <div className=" container  mx-auto lg:p-5 sm:pt-5">
+      <div className={` text-[#163828] text-[30px] mb-5 text-center font-bold ${styles.header} `}>
+        <h1>
+          Hi! Welcome to RUBY Figure to words Converter 
+        </h1>
+
+      </div>
       <div
         className={` md:w-[70%] mb-5 sm:w-[90%] mx-auto mt-5  flex ${styles.input_div}`}
       >
@@ -33,6 +39,10 @@ export default function Home() {
             else{
               seterror('')
             }
+            if (e.target.value == '') {
+              seterror('Please Enter a value to continue')
+            }
+            
             setValue(e.target.value);
           }}
         />
@@ -53,7 +63,7 @@ export default function Home() {
       <div className=" container p-4">
 
         
-        <h1 className="font-bold text-[#163828] text-[30px]">
+        <h1 className="font-semibold text-[#163828] text-[30px]">
         {Output}
 
         </h1>
