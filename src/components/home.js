@@ -62,7 +62,7 @@ export default function Home() {
 
       <div className=" container p-4">
 
-        <div className=" md:w-[70%] ">
+        <div className=" md:w-[70%] mx-auto">
                   <h1 className="font-semibold text-[#163828] text-[30px]">
         {Output}
 
